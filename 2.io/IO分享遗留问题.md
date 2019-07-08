@@ -1,5 +1,6 @@
 1. 阻塞状态下，线程状态的变化（信号量）
 2. 线程各个状态的切换，以及各个状态的场景（祖乐 JVM  P384）
+- [ ] 对于线程各个状态的切换可以参考这个解释https://www.cnblogs.com/bhlsheji/p/5099362.html
 3. 同步 异步IO  和 阻塞  与 非阻塞IO 区别（需要明确区分并举例）
 4. IO多路复用的三种机制Select,Poll,Epoll理解
 - [ ] 对于Epoll模型可以参考这边博客https://blog.csdn.net/linkedin_38454662/article/details/73337208
