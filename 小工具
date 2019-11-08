@@ -15,4 +15,15 @@ public class FilenameUtilTest {
 
 }
 
+httpClient这种 过气的工具类，就不要用了，用Unirest 吧
 
+import com.mashape.unirest.http.Unirest;
+
+HttpResponse<String> response;
+String url = DOMAIN + getUrl();
+            response = Unirest.get(url)
+                .headers(headers)
+                .queryString(param)
+                .asString();
+            String body = response.getBody();
+DTO result = parseResultDTO(response.getBody(), clazz);
