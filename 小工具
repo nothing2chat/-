@@ -27,3 +27,8 @@ String url = DOMAIN + getUrl();
                 .asString();
             String body = response.getBody();
 DTO result = parseResultDTO(response.getBody(), clazz);
+
+
+MapStruct
+JAVA对象转化的最佳方案
+mapstruct的原理和lombok差不多，都是通过编译时注解处理器来实现的。在编译的时候识别注解，然后生成一些类和代码。
