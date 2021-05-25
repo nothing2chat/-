@@ -9,3 +9,6 @@ https://www.yuque.com/
 
 4.流程管理
 https://airflow.apache.org/
+
+5.流式数据处理
+在Flink SQL之上，我们开发了实时计算平台：Bayes（云产品叫做StreamCompute）。在这个平台之上，用户可以非常方便的开发、调试、运行、监控SQL Job。
